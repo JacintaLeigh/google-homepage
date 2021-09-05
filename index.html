@@ -9,11 +9,12 @@
     </header>
     
     <body>
-     <h2></h2>
-        <h2> <img src="https://www.google.com.au/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google logo color" class="googlelogo"> </h2>
-    <h3> <button type="submit"></button> </h3>
-<h4> <button type="button"> Google Search </button> </h4>
-<h4> <button type="button"> I'm Feeling Lucky </button> </h4>
+    <div>
+    <img src="https://www.google.com.au/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google logo color" class="googlelogo"></div>
+     <div><button type="submit" class="submitbutton"></button></div>
+   <div></div>
+<div><button type="button" class="searchbutton"> Google Search </button> 
+<button type="button" class="luckybutton"> I'm Feeling Lucky </button> </div>
 
 </body>
 
@@ -35,6 +36,7 @@
     cursor: pointer;
     float: left;
     padding: 2%;
+    
 }
 
 .button1:hover {
@@ -95,9 +97,35 @@
     text-decoration: underline;
 }
 
+
 .googlelogo {
    width: 280px;
    align: center;   
-   padding: 180px;
+   padding-top: 180px;
+   padding-left: 90px;
 }
+
+.submitbutton {
+    width: 500px;
+    height: 40px;
+    border-radius: 5pc;
+    border-color: rgb(190, 190, 190);
+    border-width: 1px;
+    background-color: transparent;
+}
+
+.searchbutton, .luckybutton {
+   display: inline-block;
+   padding: 5px;
+   border-radius: 3pt;
+   background-color: 
+
+}
+
+
+div {
+    align-content: center;
+    padding-left: 100px
+}
+
  </style>
